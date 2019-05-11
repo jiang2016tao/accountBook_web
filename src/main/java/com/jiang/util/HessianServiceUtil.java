@@ -6,8 +6,8 @@ import com.jiang.service.UserService;
 
 public class HessianServiceUtil {
 
-	//ÏÈÕâÑùÐ´ËÀ£¬
-	private static final String serverIp="http://127.0.0.1:8080";
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½
+	private static final String serverIp="http://127.0.0.1:18081";
 	private static UserService userService;
 	
 	public static UserService getUserService(){
