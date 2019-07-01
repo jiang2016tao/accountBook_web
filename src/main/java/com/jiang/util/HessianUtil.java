@@ -16,7 +16,7 @@ public class HessianUtil {
 		String className=classOfT.getSimpleName();
 		if(!serverIp.startsWith( "http://" ))
 			serverIp="http://"+serverIp;
-		String hessianUrl=serverIp+"/accoutBook-server/hessian/"+className;
+		String hessianUrl=serverIp+"/accountBook_server/hessian/"+className;
 		@SuppressWarnings( "unchecked" )
 		T hessianService=( T )factory.create( classOfT, hessianUrl );
 		return hessianService;
