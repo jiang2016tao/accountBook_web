@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.account.bean.User;
 import com.account.bean.WebResponse;
 import com.account.enmu.ResponseCode;
-import com.jiang.service.AccountService;
 import com.jiang.service.UserService;
 import com.jiang.util.HessianServiceUtil;
 import com.jiang.util.StringUtil;
@@ -88,7 +87,5 @@ public class UserController {
 	public static void main( String[] args ) {
 		UserService userService=HessianServiceUtil.getUserService();
 		System.out.println( userService.findUserByFilter( new User() ));
-		AccountService accountService=HessianServiceUtil.getAccountService();
-		System.out.println( accountService.addAccount() );
 	}
 }
