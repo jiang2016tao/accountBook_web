@@ -11,7 +11,7 @@ public class HessianServiceUtil {
 
 	private static Logger logger=Logger.getLogger( HessianServiceUtil.class );
 	
-	private static final String serverIp="http://192.168.43.184:18081";
+	private static final String serverIp="http://127.0.0.1:18081";
 	private static UserService userService;
 	private static AccountService accountService;
 	
