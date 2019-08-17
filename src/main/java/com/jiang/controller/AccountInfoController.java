@@ -10,7 +10,6 @@ import com.account.bean.WebResponse;
 import com.account.enmu.ResponseCode;
 import com.jiang.service.AccountService;
 import com.jiang.util.HessianServiceUtil;
-
 @Controller
 @RequestMapping(value="/")
 public class AccountInfoController {
