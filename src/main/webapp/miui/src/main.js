@@ -7,6 +7,8 @@ import "../static/css/ui/css/lib/app.min.2.css";
 import "../static/css/ui/css/lib/sweetalert.css";
 import "../static/css/ui/css/material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
 
+import jquery from 'jquery';
+import bootstrap from 'bootstrap';
 import Vue from 'vue'
 import App from './App'
 import router from './router'

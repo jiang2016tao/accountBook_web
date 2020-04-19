@@ -9,3 +9,20 @@ export function getAccountInfo(data) {
     data
   });
 }
+export function updateAccountInfo(data){
+  return fetch({
+    url:"updateAccount",
+    method:"post",
+    data
+  });
+}
+
+export function deleteAccountInfo(id){
+  return fetch({
+    url:`deleteAccountById`,
+    data:{
+      id
+    },
+    method:"get"
+  })
+}
