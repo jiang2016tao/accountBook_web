@@ -48,7 +48,7 @@
               </ul>
             </div>
             <ul class="main-menu">
-              <li class="active"><a href="/account"><i class="zmdi zmdi-home"></i> 账户</a></li>
+              <li class="active"><a href="#/home/account"><i class="zmdi zmdi-home"></i> 账户</a></li>
               <li class="sub-menu"><a href="" tp-asidebar-click="subMenuClick"><i class="zmdi zmdi-view-compact"></i>
                 导航栏</a>
                 <ul>

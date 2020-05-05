@@ -17,6 +17,17 @@ public class AccountInfoController {
 	private Logger logger=Logger.getLogger( AccountInfoController.class );
 	private AccountService accountService=HessianServiceUtil.getAccountService();
 	
+	@RequestMapping(value="findParentAccounts")
+	@ResponseBody
+	public WebResponse findParentAccounts(){
+		try {
+			return new WebResponse( accountService.findParentAccount() );
+		} catch( Exception e ) {
+			logger.error( e.getMessage(),e );
+			return new WebResponse( ResponseCode.SystemError.getValue(), e.getMessage(), null );
+		}
+	}
+	
 	@RequestMapping(value="findAccountInfos")
 	@ResponseBody
 	public WebResponse findAccountInfos(AccountInfo accountInfo){
